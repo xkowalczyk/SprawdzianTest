@@ -18,5 +18,10 @@ namespace ConsoleApp2
             m = 0;
             h = 0;
         }
+        
+        void wyswietl()
+        {
+            Console.WriteLine(s + " " + m + " " + h);
+        }
     }
 }
