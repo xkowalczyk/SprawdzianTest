@@ -29,5 +29,11 @@ namespace ConsoleApp2
             ZwiekszGodziny((h + oIle) / 60);
             m = (m + oIle) % 60;
         }
+
+        void ZwiekszSekundy(int oIle)
+        {
+            ZwiekszMinuty((m + oIle) / 60);
+            s = (s + oIle) % 60;
+        }
     }
 }
