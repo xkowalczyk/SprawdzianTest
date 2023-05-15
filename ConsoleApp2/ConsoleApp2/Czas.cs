@@ -23,5 +23,11 @@ namespace ConsoleApp2
         {
             Console.WriteLine(s + " " + m + " " + h);
         }
+
+        void ZwiekszMinuty(int oIle)
+        {
+            ZwiekszGodziny((h + oIle) / 60);
+            m = (m + oIle) % 60;
+        }
     }
 }
